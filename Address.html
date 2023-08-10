@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Data Collection form</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<form>
+<table width="50%" align="center">
+<tr><td>ID:	</td><td><input type="text" id="id" name="id"></td></tr>
+
+<tr><td>Full Name:</td><td><input type="text" id="fname" name="fname"></td></tr>
+<tr><td>Sex:</td><td><input type="radio" id="gender" name="gender">Male<input type="radio" id="gender" name="gender">Female</td></tr>
+<tr><td>Age:</td><td><input type="number" id="age" name="age"></td></tr>
+
+<tr>
+<td>College/School:</td><td>
+  <select id="sex" name="sex">
+    <option value="SOF">Select you college or school</option>
+    <option value="COE">from database</option>
+    <option value="COA">from database</option>
+  </select>
+  </td></tr>
+
+<tr>
+<td>Department:</td><td>
+  <select id="dprt" name="dprt">
+    <option value="">Select your department</option>
+    <option value="CS">from database</option>
+    <option value="IT">from database</option>
+  </select>
+  </td></tr>
+
+<tr><td>Yea of Admission:	</td><td><input type="text" id="admission" name="admission"></td></tr>
+<tr><td>Yea of Graduation:	</td><td><input type="text" id="graduation" name="graduation"></td></tr>
+
+<tr><td>Phone Number 1: </td><td><input type="phone" id="phone1" name="phone1"></td></tr>
+<tr><td>Phone Number 2[optional]: </td><td><input type="phone" id="phone2" name="phone2"></td></tr>
+<tr><td>Email [optional]</td><td><input type="email" id="email" name="email"></td></tr>
+<tr><td colspan="2">Home Address detail</td></tr>
+<tr><td>Nationality: </td><td> <select id="nation" name="nation">
+    <option value="F">Select your nationlity</option>
+    <option value="Ethio">Ethiopian</option>
+    <option value="F">Other</option>
+  </select>
+ </td></tr>
+
+</form>
+</table>
+</body>
+</html>
